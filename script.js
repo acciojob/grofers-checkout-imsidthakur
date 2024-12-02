@@ -15,6 +15,7 @@ const getSum = () => {
  const row = document.createElement("tr");
  const col1 = document.createElement("td");
  col1.setAttribute("colspan",2);
+ col1.setAttribute("id","ans");
  col1.textContent = sum;
 
  row.append(col1);
